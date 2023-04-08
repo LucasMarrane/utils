@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2017", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "CommonJS",
+    "lib": [
+      "DOM",
+      "ES2015",
+      "esnext"
+    ], /* Specify what module code is generated. */
+    "declaration": true, /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
+    "esModuleInterop": true, /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
+    "strict": true, /* Enable all strict type-checking options. */
+    "noImplicitAny": false, /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+    "strictPropertyInitialization": false /* Check for class properties that are declared but not set in the constructor. */,
+    "skipLibCheck": true, /* Skip type checking all .d.ts files. */
+    "outDir": "build",
+    // "outFile": "./build/index.js"
+  },
+  "include": [
+    "src"
+  ]
+}

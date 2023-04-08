@@ -1,0 +1,36 @@
+{
+  "name": "@marrsys/utils",
+  "version": "1.0.0",
+  "description": "",
+  "author": {
+    "name": "Lucas Marrane Siler",
+    "email": "lucasmarrane@gmail.com",
+    "url": "https://github.com/LucasMarrane"
+  },
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "exports": {
+    "require": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "run-ts": "npx ts-node src/index.ts",
+    "run-js": "node build/index.js"
+  },
+  "keywords": [
+    "object2object",
+    "mapper",
+    "ts",
+    "object-mapper",
+    "mapper-utils",
+    "forms",
+    "validations"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@types/lodash": "^4.14.192",
+    "lodash": "^4.17.21",
+    "yup": "^1.0.2",
+    "zustand": "^4.3.7"
+  }
+}
